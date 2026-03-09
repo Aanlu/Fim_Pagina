@@ -1,0 +1,97 @@
+/* css/pages/home.css */
+
+/* --- SECCIÓN HERO --- */
+.hero {
+    background-color: var(--color-bg-white);
+    padding: 80px 0;
+    border-bottom: 4px solid var(--color-uas-gold);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide la pantalla a la mitad matemáticamente */
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 2.8rem;
+    color: var(--color-uas-blue);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-uas-blue);
+    color: var(--color-bg-white);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background var(--transition-speed);
+}
+
+.cta-button:hover {
+    background-color: var(--color-uas-blue-light);
+}
+
+.placeholder-img {
+    background-color: #E2E8F0;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-light);
+    font-weight: bold;
+}
+
+/* --- SECCIÓN DE AVISOS --- */
+.avisos {
+    padding: 60px 0;
+}
+
+.avisos h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-uas-blue);
+    margin-bottom: 40px;
+}
+
+.avisos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas exactamente iguales */
+    gap: 30px;
+}
+
+.aviso-card {
+    background: var(--color-bg-white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 4px solid var(--color-uas-gold);
+    transition: transform var(--transition-speed);
+}
+
+.aviso-card:hover {
+    transform: translateY(-5px);
+}
+
+.aviso-card .fecha {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.aviso-card h4 {
+    color: var(--color-uas-blue);
+    margin-bottom: 15px;
+}

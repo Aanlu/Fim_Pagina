@@ -1,0 +1,55 @@
+/* css/layout/header.css */
+.main-header {
+    background-color: var(--color-uas-blue);
+    color: var(--color-bg-white);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-bg-white);
+}
+
+.logo span {
+    color: var(--color-uas-gold);
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-nav a {
+    color: var(--color-bg-white);
+    font-weight: 500;
+    transition: color var(--transition-speed);
+}
+
+.main-nav a:hover, .main-nav a.active {
+    color: var(--color-uas-gold);
+}
+
+/* El botón especial del menú */
+.btn-login {
+    background-color: var(--color-uas-gold);
+    color: var(--color-uas-blue) !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+}

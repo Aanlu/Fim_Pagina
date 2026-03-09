@@ -1,0 +1,18 @@
+/* css/base/variables.css */
+:root {
+    /* Paleta Institucional UAS */
+    --color-uas-blue: #003057; 
+    --color-uas-gold: #B38F36;
+    --color-uas-blue-light: #004A87;
+
+    /* Colores neutrales */
+    --color-text-dark: #2D3748;
+    --color-text-light: #718096;
+    --color-bg-white: #FFFFFF;
+    --color-bg-gray: #F7FAFC;
+
+    /* Tipografía y Espaciados */
+    --font-main: 'Segoe UI', system-ui, sans-serif;
+    --container-width: 1200px;
+    --transition-speed: 0.3s ease;
+}
